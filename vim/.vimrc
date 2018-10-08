@@ -18,3 +18,7 @@ function PyTabsCfg()
 endfunction
 
 au BufRead,BufNewFile *.py call PyTabsCfg()
+
+" Disable annoying vim error beep
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
