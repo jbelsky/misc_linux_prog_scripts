@@ -16,7 +16,7 @@ sudo adduser --home $home_dir $usrID
 #sudo passwd $usrID
 
 # Delete user
-delete_usr () {
+function delete_usr () {
 
 	if [ -z $2 ] && [ $2 == "Y" ]; then
 		sudo deluser --remove-home $1
