@@ -1,5 +1,13 @@
 [user]
-	name = jab112 (jabt410)
-	email = jabelsky@gmail.com
+	email = jason.belsky@qiagen.com
+	name = jasonbelsky (JAB-YOGA-900)
+[alias]
+	st = status
+	ss = status -s
+[log]
+	date = short
+[format]
+	pretty = format:%C(yellow)%h %C(cyan)%ad %C(green)%an %C(reset)%s
 [core]
-	editor = vim
+	editor = C:/Programs/cygwin64/bin/vim.exe
+	autocrlf = false
