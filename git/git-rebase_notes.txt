@@ -1,0 +1,9 @@
+# This failed
+git rebase -i a378c48~ a378c48
+
+# This worked
+git rebase -i <SHA5 of parent commit of beginning of rebase>
+- Note: perform while on the feature branch
+- Check last 2 git bookmarks re: rebase vs. merge
+
+ 
