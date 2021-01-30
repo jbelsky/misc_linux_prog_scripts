@@ -15,6 +15,7 @@ alias dir='find -mindepth 1 -maxdepth 1 -type d | sed -s "s|^\./||g" | sort'
 
 # ps commands
 alias pss='ps -jH -ujasonbelsky'
+alias psu='ps -H -u jasonbelsky -o "comm,pid,tname,nlwp,%cpu,%mem,uname,lstart,etime,cmd"'
 
 # Line-wrap commands
 alias sqlplus='rlwrap /scratch/sdc/oracle/software/bin/sqlplus'

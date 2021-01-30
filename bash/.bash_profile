@@ -20,4 +20,4 @@ fi
 PATH="$HOME/.bin:$HOME/.local/bin:$PATH"
 
 # Set the shell prompt
-PS1="\[\e]0;\w\a\][\u@\h \W]\$ "
+export PS1="\[\e]0;\w\a\][\u@\h \W]\$ "
